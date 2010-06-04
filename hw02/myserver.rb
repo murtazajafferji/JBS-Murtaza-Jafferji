@@ -34,7 +34,7 @@ class MyServer < GServer
       string = case line
       when /^(t|time)$/ #when 't' or 'time' is entered
         "The time of day is #{Time.now}"
-      when /^x/ #when 'x' is entered
+      when 'quit' #when 'quit' is entered
         puts "Exiting!"
         break
       when %r{^(f|message/fortune)$} #when 'f' or 'message/fortune' is entered
@@ -43,8 +43,8 @@ class MyServer < GServer
         Time.new.strftime("%D %r")
       when /^d(.+)/ #when a file name is entered which begins with a 'd'
         file = $1
-        if File.exist?(file)
-          File.read(file) #read the file
+        if true#File.exist?(file)
+          File.read(file).gsub("\n", " ") #read the file
         else
           "Error: file does not exist."
         end
