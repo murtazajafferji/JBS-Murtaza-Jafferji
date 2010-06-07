@@ -1,0 +1,97 @@
+/*
+    Name: Top Ten
+	Assignment: hw3
+	Description: A list of Jackie Chan's top ten movies.
+	Author: Murtaza Jafferji
+	Use: Open with a browser.
+*/
+
+/* Properties of the body */
+body{
+  	color: yellow;
+  	background-color: maroon;
+  	font-size: 14px;
+  	font-family: "Rockwell Condensed";
+  	font-style: bold;
+}
+
+/* Properties of title of the page */
+h1{
+	color: yellow;
+  	font-family: "Rockwell Condensed";
+	font-size: 75px;
+	text-align:center;
+}  
+
+/* Properties of line about Jackie's greatness */
+h2{
+  	font-size: 24px;
+  	font-family: "Franklin Gothic Heavy";
+	color: aqua;
+	text-align:center;
+	padding:4px;
+	border:1px dashed #333;
+	background-color:black;
+} 
+
+/* Properties of the table's title */
+h3{
+	font-size: 40px;
+	text-align:center;
+}
+
+/* Properties of the first paragraph */
+p1{
+  	margin-left: 25;
+  	font-size: 16px;
+  	font-family: "Copperplate Gothic Bold";
+  	color: aqua;
+}  
+
+/* Properties of the second paragraph */
+p2{
+  	margin-left: 25;
+  	font-size: 16px;
+  	font-family: "Copperplate Gothic Bold";
+  	color: aqua;
+} 
+
+/* Properties of the table */
+table{ 
+	/* centers it */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Properties of the form */
+label{
+	width: 4em;
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+	display: block
+}
+
+input{
+	color: #781351;
+	background: #fee3ad;
+	border: 1px solid #781351
+}
+
+.submit input{
+	margin-left: 4.5em;
+	color: #000;
+	background: #ffa20f;
+	border: 2px outset #d7b9c9
+}
+fieldset{
+	border: 1px solid #781351;
+	width: 20em
+}
+
+legend{
+	color: #fff;
+	background: #ffa20c;
+	border: 1px solid #781351;
+	padding: 2px 6px
+} 

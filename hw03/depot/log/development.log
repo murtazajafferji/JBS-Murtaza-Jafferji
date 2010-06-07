@@ -1,0 +1,609 @@
+# Logfile created on Mon Jun 07 06:22:07 -0400 2010
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-07 06:22:14) [GET]
+  [4;36;1mProduct Load (24.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 12032ms (View: 11983, DB: 24) | 200 OK [http://localhost/store]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/utc.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/auto.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/svn.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/.GIF" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-06-07 06:22:33) [GET]
+  [4;35;1mProduct Load (3.0ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 87ms (View: 70, DB: 3) | 200 OK [http://localhost/products]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/auto.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/utc.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/svn.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/.GIF" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:42) [GET]
+
+ActionController::RoutingError (No route matches "/dtore" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-07 06:22:45) [GET]
+  [4;36;1mProduct Load (4.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 65ms (View: 48, DB: 4) | 200 OK [http://localhost/store]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/svn.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/auto.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/utc.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:22:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/.GIF" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:26:00) [GET]
+
+ActionController::RoutingError (No route matches "/layouts" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:26:23) [GET]
+
+ActionController::RoutingError (No route matches "/edit" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-06-07 06:26:31) [GET]
+  Parameters: {"id"=>"edit"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=edit):
+  app/controllers/products_controller.rb:16:in `show'
+
+Rendered rescues/_trace (126.0ms)
+Rendered rescues/_request_and_response (4.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-06-07 06:26:35) [GET]
+  Parameters: {"id"=>"index"}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=index):
+  app/controllers/products_controller.rb:16:in `show'
+
+Rendered rescues/_trace (133.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-06-07 06:26:41) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 48ms (View: 33, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-06-07 06:26:48) [GET]
+  Parameters: {"id"=>"show"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=show):
+  app/controllers/products_controller.rb:16:in `show'
+
+Rendered rescues/_trace (212.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-06-07 06:26:52) [GET]
+  Parameters: {"id"=>"edit"}
+  [4;36;1mProduct Load (1.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=edit):
+  app/controllers/products_controller.rb:16:in `show'
+
+Rendered rescues/_trace (114.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-06-07 06:27:05) [GET]
+  Parameters: {"id"=>"show"}
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=show):
+  app/controllers/products_controller.rb:16:in `show'
+
+Rendered rescues/_trace (127.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-06-07 06:27:13) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 35ms (View: 21, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-06-07 06:27:19) [GET]
+  [4;36;1mProduct Load (2.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 56ms (View: 39, DB: 2) | 200 OK [http://localhost/products/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/utc.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/svn.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/auto.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/.GIF" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-07 06:27:37) [GET]
+  [4;35;1mProduct Load (3.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 55ms (View: 38, DB: 3) | 200 OK [http://localhost/store/index]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/svn.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/auto.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:38) [GET]
+
+ActionController::RoutingError (No route matches "/images/utc.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/.GIF" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-07 06:27:47) [GET]
+  [4;36;1mProduct Load (3.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 51ms (View: 36, DB: 3) | 200 OK [http://localhost/store/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/auto.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/utc.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/svn.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 06:27:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/.GIF" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-06-07 06:28:01) [GET]
+  Parameters: {"id"=>"edit"}
+  [4;35;1mProduct Load (1.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=edit):
+  app/controllers/products_controller.rb:16:in `show'
+
+Rendered rescues/_trace (212.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-06-07 06:28:06) [GET]
+  Parameters: {"id"=>"index"}
+  [4;36;1mProduct Load (0.0ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=index):
+  app/controllers/products_controller.rb:16:in `show'
+
+Rendered rescues/_trace (119.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2010-06-07 06:28:09) [GET]
+  Parameters: {"id"=>"show"}
+  [4;35;1mProduct Load (2.0ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Product with ID=show):
+  app/controllers/products_controller.rb:16:in `show'
+
+Rendered rescues/_trace (128.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2010-06-07 09:15:09) [GET]
+  [4;36;1mProduct Load (3.0ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/products
+Rendering products/index
+Completed in 114ms (View: 90, DB: 3) | 200 OK [http://localhost/products]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/svn.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/auto.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/utc.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/.GIF" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2010-06-07 09:15:16) [GET]
+Rendering template within layouts/products
+Rendering products/new
+Completed in 62ms (View: 48, DB: 0) | 200 OK [http://localhost/products/new]
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-07 09:15:39) [GET]
+  [4;35;1mProduct Load (3.0ms)[0m   [0mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 98ms (View: 75, DB: 3) | 200 OK [http://localhost/store]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/utc.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:40) [GET]
+
+ActionController::RoutingError (No route matches "/images/auto.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/svn.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/.GIF" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StoreController#index (for 127.0.0.1 at 2010-06-07 09:15:45) [GET]
+  [4;36;1mProduct Load (5.0ms)[0m   [0;1mSELECT * FROM "products" ORDER BY title[0m
+Rendering template within layouts/store
+Rendering store/index
+Completed in 71ms (View: 52, DB: 5) | 200 OK [http://localhost/store/index]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/utc.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/svn.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/auto.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-07 09:15:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/.GIF" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
