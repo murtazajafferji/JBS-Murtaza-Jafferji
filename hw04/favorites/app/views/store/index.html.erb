@@ -1,0 +1,13 @@
+<h1>My Favorite Movies</h1>
+<% for movie in @movies -%>
+  <div class="entry">
+    <h3><%=h movie.title %></h3>
+    <%= image_tag(movie.image_url) %><br/>
+    <%= movie.year %><br/>
+    <%= movie.runtime %><br/>
+    <div class="starring-line">
+    <span class="starring"><%= movie.starring %></span>
+    <%= button_to "Like" %>
+    </div>
+  </div>
+<% end %>
