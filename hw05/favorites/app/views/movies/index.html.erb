@@ -1,0 +1,35 @@
+<div id="movie-list">
+  <h1>Listing movies</h1>
+
+  <table>
+  <% @movies.each do |movie| %>
+    <tr class="<%= cycle('list-line-odd', 'list-line-even') %>">
+
+      <td>
+        <%= image_tag movie.image_url, :class => 'list-image' %>
+      </td>
+
+      <td class="list-description">
+        <dl>
+          <dt><%=h movie.title %></dt>
+          <dd><%=h movie.year %></dd>
+          <dd><%=h movie.runtime %></dd>
+          <dd><%= movie.starring %></dd>
+        </dl>
+      </td>
+
+      <td class="list-actions">
+        <%= link_to 'Show', movie %><br/>
+        <%= link_to 'Edit', edit_movie_path(movie) %><br/>
+        <%= link_to 'Destroy', movie, 
+                    :confirm => 'Are you sure?',
+                    :method => :delete %>
+      </td>
+    </tr>
+  <% end %>
+  </table>
+</div>
+
+<br />
+
+<%= link_to 'New movie', new_movie_path %>
