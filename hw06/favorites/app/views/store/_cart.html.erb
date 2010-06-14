@@ -1,0 +1,14 @@
+<div class="cart-title">Your Favorited Movies</div>
+<table>
+  <%= render(:partial => "cart_item" , :collection => cart.items) %>
+
+  <tr class="total-line">
+    <td colspan="2">Total Favorites </td>
+    <td class="total-cell"><%= @cart.total_movies %></td>
+  </tr>
+
+</table>
+
+<%= button_to "My Favorites" , :action => 'add_to_cart', :id => 3 %>
+<%= button_to "Murtaza's Favorites" , :action => :back_to_index %>
+<%= button_to "Save" , :action => 'order_list' %>
