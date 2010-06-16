@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>My Favorites</title>
+<!-- START:stylesheet -->
+  <%= stylesheet_link_tag "favorites", :media => "all" %><!-- <label id="code.slt"/> -->
+  <%= javascript_include_tag :defaults %>
+<!-- END:stylesheet -->
+</head>
+<body id="store">
+  <div id="banner">
+    <%= image_tag("logo.png") %>
+    <%= @page_title || "Favorite Movies" %><!-- <label id="code.favorites.e.title"/> -->
+  </div>
+  <div id="columns">
+    <div id="side">
+      <% if @cart %>
+        <!-- START_HIGHLIGHT -->
+        <!-- START:hidden_div -->
+        <% hidden_div_if(@cart.items.empty?, :id => "cart") do %>
+          <%= render(:partial => "cart", :object => @cart) %>
+        <% end %>
+      <% end %>
+    <!-- END:hidden_div -->
+      <!-- END_HIGHLIGHT -->
+	  <!-- 
+      <a href="http://www....">Home</a><br />
+      <a href="http://www..../faq">Questions</a><br />
+      <a href="http://www..../news">News</a><br />
+      <a href="http://www..../contact">Contact</a><br />
+      -->
+    </div>
+    <div id="user_nav">
+      <% if current_user %>
+        <%= link_to "Edit Profile", edit_user_path(:current) %> |
+        <%= link_to "Logout", logout_path %>
+      <% else %>
+        <%= link_to "Register", new_user_path %> |
+        <%= link_to "Login", login_path %>
+      <% end %>
+    </div>
+    <div id="main">
+      <% if flash[:notice] -%>
+        <div id="notice"><%= flash[:notice] %></div>
+      <% end -%>
+      
+      <%= yield :layout %><!-- <label id="code.depot.e.include"/> -->
+    </div>
+  </div>
+</body>
+</html>
