@@ -1,0 +1,16 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyString
+  year: 1
+  image_url: MyString.jpg
+  starring: MyString
+  runtime: 1
+
+two:
+  title: MyString
+  year: 1
+  image_url: MyString.jpg
+  starring: MyString
+  runtime: 1
+  
