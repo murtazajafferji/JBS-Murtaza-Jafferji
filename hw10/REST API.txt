@@ -1,0 +1,79 @@
+Murtaza Jafferji
+hw10
+REST API for Favorite Movies
+
+***** Users *****
+
+Create a user:
+  POST /users.xml
+    Required parameters:
+      name: string
+      password: string
+
+Update a user:
+  PUT /users/:id.xml
+    Optional parameters to send:
+      email: string
+      password: string    
+
+Get info:
+  ...for all users:
+    GET /users.xml
+  ...for a specific user:
+    GET /users/:id.xml
+
+Delete a user:
+  DELETE /users/:id.xml
+
+***** Movies *****
+
+Create a movie:
+  POST /movies.xml
+   Required parameters:
+      title: string
+      year: integer
+      image_url: string
+      starring: text
+      runtime: integer
+
+Update a movie:
+  PUT /movies/:id.xml
+    Optional parameters:
+      title: string
+      year: integer
+      image_url: string
+      starring: text
+      runtime: integer
+
+Get info:
+  ...for all movies:
+    GET /movies.xml
+  ...for a specific user:
+    GET /movies/:id.xml
+
+Delete a movie:
+  DELETE /movies/:id.xml
+  
+***** Cart Item *****
+
+Create a cart item:
+  POST /cart_item.xml
+   Required parameters:
+      movie_id: integer
+      user_id
+      rating: integer
+
+Update a cart item:
+  PUT /cart_item/:id.xml
+    Optional parameters:
+      rating: integer
+
+Get info:
+  ...for all movies:
+    GET /cart_item.xml
+  ...for a specific user:
+    GET /cart_item/:id.xml
+
+Delete a cart item:
+  DELETE /cart_item/:id.xml
+  
