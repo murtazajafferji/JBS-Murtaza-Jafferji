@@ -1,0 +1,6 @@
+Loaded suite dictionary
+Started
+.......
+Finished in 0.002000 seconds.
+
+7 tests, 14 assertions, 0 failures, 0 errors, 0 skips
