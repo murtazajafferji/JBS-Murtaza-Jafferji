@@ -1,0 +1,315 @@
+(in C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/rails_apps/gist)
+Loaded suite C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+EEEEEE........
+Finished in 0.32 seconds.
+
+  1) Error:
+test_likes_neutralize_dislikes_and_vice_versa(DefinitionTest):
+Ferret::FileNotFoundError: File Not Found Error occured:
+couldn't find segments file
+
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `initialize'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `new'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `ensure_writer_open'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:268:in `add_document'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:8:in `synchrolock'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:8:in `synchrolock'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:267:in `add_document'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/acts_as_ferret-0.4.4/lib/local_index.rb:108:in `<<'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/acts_as_ferret-0.4.4/lib/instance_methods.rb:100:in `ferret_create'
+    /test/unit/definition_test.rb:8:in `setup'
+
+  2) Error:
+test_multiple_users_can_vote_on_same_definition(DefinitionTest):
+Ferret::FileNotFoundError: File Not Found Error occured:
+couldn't find segments file
+
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `initialize'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `new'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `ensure_writer_open'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:268:in `add_document'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:8:in `synchrolock'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:8:in `synchrolock'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:267:in `add_document'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/acts_as_ferret-0.4.4/lib/local_index.rb:108:in `<<'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/acts_as_ferret-0.4.4/lib/instance_methods.rb:100:in `ferret_create'
+    /test/unit/definition_test.rb:8:in `setup'
+
+  3) Error:
+test_new_definition_has_no_votes(DefinitionTest):
+Ferret::FileNotFoundError: File Not Found Error occured:
+couldn't find segments file
+
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `initialize'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `new'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `ensure_writer_open'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:268:in `add_document'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:8:in `synchrolock'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:8:in `synchrolock'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:267:in `add_document'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/acts_as_ferret-0.4.4/lib/local_index.rb:108:in `<<'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/acts_as_ferret-0.4.4/lib/instance_methods.rb:100:in `ferret_create'
+    /test/unit/definition_test.rb:8:in `setup'
+
+  4) Error:
+test_user_can_cast_a_vote(DefinitionTest):
+Ferret::FileNotFoundError: File Not Found Error occured:
+couldn't find segments file
+
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `initialize'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `new'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `ensure_writer_open'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:268:in `add_document'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:8:in `synchrolock'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:8:in `synchrolock'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:267:in `add_document'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/acts_as_ferret-0.4.4/lib/local_index.rb:108:in `<<'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/acts_as_ferret-0.4.4/lib/instance_methods.rb:100:in `ferret_create'
+    /test/unit/definition_test.rb:8:in `setup'
+
+  5) Error:
+test_user_can_vote_on_multiple_moods(DefinitionTest):
+Ferret::FileNotFoundError: File Not Found Error occured:
+couldn't find segments file
+
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `initialize'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `new'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `ensure_writer_open'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:268:in `add_document'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:8:in `synchrolock'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:8:in `synchrolock'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:267:in `add_document'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/acts_as_ferret-0.4.4/lib/local_index.rb:108:in `<<'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/acts_as_ferret-0.4.4/lib/instance_methods.rb:100:in `ferret_create'
+    /test/unit/definition_test.rb:8:in `setup'
+
+  6) Error:
+test_voting_twice_cancels_out(DefinitionTest):
+Ferret::FileNotFoundError: File Not Found Error occured:
+couldn't find segments file
+
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `initialize'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `new'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:710:in `ensure_writer_open'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:268:in `add_document'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:8:in `synchrolock'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:8:in `synchrolock'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/ferret-0.11.5-x86-mswin32/lib/ferret/index.rb:267:in `add_document'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/acts_as_ferret-0.4.4/lib/local_index.rb:108:in `<<'
+    C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/acts_as_ferret-0.4.4/lib/instance_methods.rb:100:in `ferret_create'
+    /test/unit/definition_test.rb:8:in `setup'
+
+14 tests, 8 assertions, 0 failures, 6 errors
+Loaded suite C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+..EEEEEEEEEEE.EEFEEE.EE
+Finished in 13.479 seconds.
+
+  1) Error:
+test_should_create_trigram(TrigramsControllerTest):
+ActionController::UnknownAction: No action responded to create. Actions: index, instantiate_controller_and_action_names, and redirect_back_or
+    /test/functional/trigrams_controller_test.rb:17:in `test_should_create_trigram'
+    /test/functional/trigrams_controller_test.rb:16:in `test_should_create_trigram'
+
+  2) Error:
+test_should_destroy_trigram(TrigramsControllerTest):
+ActionController::UnknownAction: No action responded to destroy. Actions: index, instantiate_controller_and_action_names, and redirect_back_or
+    /test/functional/trigrams_controller_test.rb:40:in `test_should_destroy_trigram'
+    /test/functional/trigrams_controller_test.rb:39:in `test_should_destroy_trigram'
+
+  3) Error:
+test_should_get_edit(TrigramsControllerTest):
+ActionView::TemplateError: Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+    On line #3 of app/views/trigrams/edit.html.erb
+    
+        1: <h1>Editing trigram</h1>
+        2: 
+        3: <% form_for(@trigram) do |f| %>
+        4:   <%= f.error_messages %>
+        5: 
+        6:   <p>
+    
+        app/views/trigrams/edit.html.erb:3
+        /test/functional/trigrams_controller_test.rb:29:in `test_should_get_edit'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:67:in `start_mediator'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:41:in `start'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/testrunnerutilities.rb:29:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/autorunner.rb:216:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/autorunner.rb:12:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit.rb:278
+        rake (0.8.7) lib/rake/rake_test_loader.rb:5
+
+  4) Error:
+test_should_get_index(TrigramsControllerTest):
+NoMethodError: undefined method `downcase' for nil:NilClass
+    app/controllers/trigrams_controller.rb:4:in `index'
+    /test/functional/trigrams_controller_test.rb:5:in `test_should_get_index'
+
+  5) Error:
+test_should_get_new(TrigramsControllerTest):
+ActionView::TemplateError: Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+    On line #3 of app/views/trigrams/new.html.erb
+    
+        1: <h1>New trigram</h1>
+        2: 
+        3: <% form_for(@trigram) do |f| %>
+        4:   <%= f.error_messages %>
+        5: 
+        6:   <p>
+    
+        app/views/trigrams/new.html.erb:3
+        /test/functional/trigrams_controller_test.rb:11:in `test_should_get_new'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:67:in `start_mediator'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:41:in `start'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/testrunnerutilities.rb:29:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/autorunner.rb:216:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/autorunner.rb:12:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit.rb:278
+        rake (0.8.7) lib/rake/rake_test_loader.rb:5
+
+  6) Error:
+test_should_show_trigram(TrigramsControllerTest):
+ActionView::TemplateError: undefined method `tg' for nil:NilClass
+    On line #3 of app/views/trigrams/show.html.erb
+    
+        1: <p>
+        2:   <b>Tg:</b>
+        3:   <%=h @trigram.tg %>
+        4: </p>
+        5: 
+        6: <p>
+    
+        app/views/trigrams/show.html.erb:3
+        /test/functional/trigrams_controller_test.rb:24:in `test_should_show_trigram'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:67:in `start_mediator'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:41:in `start'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/testrunnerutilities.rb:29:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/autorunner.rb:216:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/autorunner.rb:12:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit.rb:278
+        rake (0.8.7) lib/rake/rake_test_loader.rb:5
+
+  7) Error:
+test_should_update_trigram(TrigramsControllerTest):
+ActionController::UnknownAction: No action responded to update. Actions: index, instantiate_controller_and_action_names, and redirect_back_or
+    /test/functional/trigrams_controller_test.rb:34:in `test_should_update_trigram'
+
+  8) Error:
+test_should_create_user_session(UserSessionsControllerTest):
+NoMethodError: undefined method `count' for UserSession:Class
+    /test/functional/user_sessions_controller_test.rb:16:in `test_should_create_user_session'
+    /test/functional/user_sessions_controller_test.rb:16:in `test_should_create_user_session'
+
+  9) Error:
+test_should_destroy_user_session(UserSessionsControllerTest):
+NoMethodError: undefined method `count' for UserSession:Class
+    /test/functional/user_sessions_controller_test.rb:39:in `test_should_destroy_user_session'
+    /test/functional/user_sessions_controller_test.rb:39:in `test_should_destroy_user_session'
+
+ 10) Error:
+test_should_get_edit(UserSessionsControllerTest):
+NoMethodError: undefined method `user_sessions' for #<UserSessionsControllerTest:0x60617f0>
+    /test/functional/user_sessions_controller_test.rb:29:in `test_should_get_edit'
+
+ 11) Error:
+test_should_get_index(UserSessionsControllerTest):
+ActionController::UnknownAction: No action responded to index. Actions: create, destroy, instantiate_controller_and_action_names, new, and redirect_back_or
+    /test/functional/user_sessions_controller_test.rb:5:in `test_should_get_index'
+
+ 12) Error:
+test_should_show_user_session(UserSessionsControllerTest):
+NoMethodError: undefined method `user_sessions' for #<UserSessionsControllerTest:0x60616c4>
+    /test/functional/user_sessions_controller_test.rb:24:in `test_should_show_user_session'
+
+ 13) Error:
+test_should_update_user_session(UserSessionsControllerTest):
+NoMethodError: undefined method `user_sessions' for #<UserSessionsControllerTest:0x6061660>
+    /test/functional/user_sessions_controller_test.rb:34:in `test_should_update_user_session'
+
+ 14) Failure:
+test_should_create_user(UsersControllerTest) [/test/functional/users_controller_test.rb:16]:
+"User.count" didn't change by 1.
+<3> expected but was
+<2>.
+
+ 15) Error:
+test_should_destroy_user(UsersControllerTest):
+ActionController::UnknownAction: No action responded to destroy. Actions: create, edit, instantiate_controller_and_action_names, new, redirect_back_or, and update
+    /test/functional/users_controller_test.rb:40:in `test_should_destroy_user'
+    /test/functional/users_controller_test.rb:39:in `test_should_destroy_user'
+
+ 16) Error:
+test_should_get_edit(UsersControllerTest):
+ActionView::TemplateError: Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id
+    On line #1 of app/views/users/_form.html.erb
+    
+        1: <% form_for @user do |f| %>
+        2:   <%= f.error_messages %>
+        3:   <p>
+        4:     <%= f.label :username %><br />
+    
+        app/views/users/_form.html.erb:1
+        app/views/users/edit.html.erb:3
+        /test/functional/users_controller_test.rb:29:in `test_should_get_edit'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:34:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `each'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/testsuite.rb:33:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/testrunnermediator.rb:46:in `run_suite'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:67:in `start_mediator'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/console/testrunner.rb:41:in `start'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/ui/testrunnerutilities.rb:29:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/autorunner.rb:216:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit/autorunner.rb:12:in `run'
+        C:/Users/Murtaza/Desktop/JBS/Installers/InstantRails-2.0-win/ruby/lib/ruby/1.8/test/unit.rb:278
+        rake (0.8.7) lib/rake/rake_test_loader.rb:5
+
+ 17) Error:
+test_should_get_index(UsersControllerTest):
+ActionController::UnknownAction: No action responded to index. Actions: create, edit, instantiate_controller_and_action_names, new, redirect_back_or, and update
+    /test/functional/users_controller_test.rb:5:in `test_should_get_index'
+
+ 18) Error:
+test_should_show_user(UsersControllerTest):
+ActionController::UnknownAction: No action responded to show. Actions: create, edit, instantiate_controller_and_action_names, new, redirect_back_or, and update
+    /test/functional/users_controller_test.rb:24:in `test_should_show_user'
+
+ 19) Error:
+test_should_update_user(UsersControllerTest):
+NoMethodError: You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.update_attributes
+    app/controllers/users_controller.rb:23:in `update'
+    /test/functional/users_controller_test.rb:34:in `test_should_update_user'
+
+23 tests, 5 assertions, 1 failures, 18 errors
