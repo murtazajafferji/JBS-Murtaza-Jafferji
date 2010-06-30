@@ -1,0 +1,204 @@
+html, body {
+  background: #176093 url(../images/bg.gif) left repeat-y;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: .5em 0;
+  font-weight: bold;
+}
+
+h1 {
+  color: #eeefac;
+}
+
+a {
+  color: #e1ccb5;
+  text-decoration: none;
+  border-bottom: dashed 1px white;
+}
+
+#container {
+  margin-top: 40px;
+  max-width: 1000px;
+}
+
+#header {
+}
+
+#logo {
+  float: left;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+#logo a {
+	display: block;
+  width: 209px;
+  height: 48px;
+  text-indent: -9999em;
+  overflow: hidden;
+  background-image: url(../images/logo.png);
+  border: none;
+}
+
+#top-nav {
+  float: right;
+  text-align: right;
+}
+
+#user-nav, #i18n-nav {
+  display: inline;
+  margin-left: 25px;
+}
+
+#user-nav li, #i18n-nav li {
+  display: inline;
+  padding: 0 5px;
+}
+
+#search {
+  margin-left: 300px;
+  padding-top: 8px;
+}
+
+#search input {
+  font-size: 20px;
+}
+
+#sidebar {
+	width: 230px;
+	float: left;
+  clear: left;
+  padding: 10px;
+}
+
+#sidebar .section {
+  margin: 1em 0;
+}
+
+#user_nav {
+  text-align: center;
+}
+
+#main {
+	margin-left: 300px;
+	margin-top: 60px;
+  max-width: 700px;
+}
+
+.result {
+  list-style: none;
+}
+
+.word {
+  font-size: 36px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #dce7ef;
+  border-bottom: none;
+}
+
+  .word:hover {
+    color: #8bb0c9;
+  }
+
+.definitions {
+  margin: .4em 0;
+  padding: 0;
+}
+
+.definition {
+  margin-left: 15px;
+  margin-bottom: 1em;
+  list-style: none; 
+  font-size: 18px;
+  clear: right;
+}
+
+.definition-comment-form {
+  font-size: 12px;
+}
+
+  .definition-comment-form input {
+    background-color: #06548a;
+    border: solid 1px #054674;
+  }
+
+.stats {
+  font-size: 12px;
+  float: right;
+  margin-bottom: 10px;
+}
+
+  .stats li {
+    display: inline;
+  }
+
+  .votes span {
+    font-weight: bold;
+  }
+
+.like {
+  color: #4ea34a;
+}
+
+.dislike {
+  color: #a37c4d;
+}
+
+.comments {
+  font-size: 12px;
+  margin: 1em;
+}
+
+.comments .title {
+  font-weight: bold;
+}
+
+input, textarea {
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border: none;
+  padding: 4px;
+}
+
+input[type=submit] {
+  padding: 5px 10px;
+}
+
+@media screen and (max-width: 480px) {
+  html, body {
+    background-image: none;
+  }
+  
+  #logo {
+    float: none;
+  }
+  
+  #main {
+    margin-left: 20px;
+  }
+  
+  #top-nav {
+    float: none;
+    text-align: left;
+  }
+  
+  #top-nav ul {
+    display: block;
+  }
+  
+  #search {
+    margin-left: 20px;
+  }
+}
