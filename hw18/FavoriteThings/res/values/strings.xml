@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_title">Favorite Things</string>
+    <string name="app_name">FavoriteThings</string>
+    <string name="my_label">My Favorites</string>
+    <string name="exit_label">Exit</string>
+    <string name="new_label">New Item</string>
+    <string name="about_label">About</string>
+ 	<string name="about_text">
+ 	Favorite Things helps you remember and keep track of your favorite things.
+ 	How many times have people asked you what your favorite book or movie is
+ 	and you have drawn a blank? How much time have you wasted at the grocery 
+ 	store trying to remember what your favorite snack is? With Favorite Things,
+ 	you will be able to answer your friends confidently and be able to be in 
+ 	and out of the supermarket without having to think for a second.
+ 	</string>
+ 	<string name="settings_label">Settings...</string>
+	<string name="settings_title">Favorite Things settings</string>
+	<string name="settings_shortcut">s</string>
+	<string name="option1_title">Option 1</string>
+	<string name="option1_summary">This is the summary of option 1</string>
+	<string name="option2_title">Option 2</string>
+	<string name="option2_summary">This is the summary of option 2</string>
+</resources>

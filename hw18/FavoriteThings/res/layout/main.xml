@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="15dip" 
+	android:background="@color/background">
+<LinearLayout
+	android:orientation="vertical"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:layout_gravity="center"
+	android:paddingLeft="20dip"
+	android:paddingRight="20dip">	
+	
+	
+	<TextView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="@string/main_title" 
+		android:layout_gravity="center"
+		android:layout_marginBottom="25dip"
+		android:textSize="24.5sp"
+		android:textColor="@color/title"
+		/>
+		
+	<TableLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:stretchColumns="*">
+		
+		<TableRow>
+			<Button 
+				android:text="@string/my_label"
+				android:id="@+id/my_button">
+			</Button>
+			<Button 
+				android:text="@string/about_label" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:id="@+id/about_button">	
+			</Button>
+		</TableRow>
+		
+		<TableRow>
+			<Button 
+				android:text="@string/new_label" 
+				android:id="@+id/new_button">
+			</Button>
+			<Button 
+				android:text="@string/exit_label"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:id="@+id/exit_button">	
+			</Button>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>		
+</LinearLayout>
