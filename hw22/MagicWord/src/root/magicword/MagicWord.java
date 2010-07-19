@@ -88,7 +88,7 @@ public class MagicWord extends SpeechGatheringActivity implements OnUtteranceCom
             				matchedPositions += (i + 1) + " ";
             			}
             		}
-            		speaker.say("The magic word has the same number of letters in it than the word" + mostLikelyThingHeard + " in the positions " + matchedPositions + ". Try again.", this);
+            		speaker.say("The magic word has the same number of letters in it than the word" + mostLikelyThingHeard + ". The letters match in the positions " + matchedPositions + ". Try again.", this);
             	}
             }
         }
