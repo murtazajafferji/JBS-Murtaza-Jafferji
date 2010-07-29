@@ -1,0 +1,15 @@
+<% title "Find Meaning" %>
+
+<h2><%= link_to_remote I18n.t("Random Word"), :url => random_words_path %></h2>
+
+<div id="random_word">
+  <%= render :partial => 'definitions/definition', :locals => {:word => @random, :definition => @random_def } %>
+</div>
+
+<% content_for :sidebar do %>
+  <div class="section">
+    <p>Definitious is an online dictionary where you decide how words are defined.</p>
+    <p>Go ahead - search for a word in the box above. If you don't like any of the definitions provided, you can submit your own.</p>
+    <p><b><%= @definitions_size %></b> definitions have been added to <b> <%= @words_size %></b> words. Join the fun!</p>
+  </div>
+<% end %>

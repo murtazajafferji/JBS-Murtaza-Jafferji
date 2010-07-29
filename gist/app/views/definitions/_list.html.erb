@@ -1,0 +1,11 @@
+<!-- sort bars -->
+<% unless defined? no_sort %>
+<%= render :partial => 'definitions/sorter' %>
+<% end %>
+
+<!-- list -->
+<div id="definitions">
+  <%= render :partial => 'definitions/definition', :collection => definitions, :locals => {:word => true} %>
+</div>
+
+<!-- pager -->
