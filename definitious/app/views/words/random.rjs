@@ -1,3 +1,0 @@
-page["#random_word .definition"].replace :partial => 'definitions/definition', :locals => {:word => @word, :definition => @definition}
-page[".detailed-stats"].hide
-page[".comment-form"].hide
